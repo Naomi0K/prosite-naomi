@@ -1,0 +1,226 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body { 
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); 
+  gap: 0.5rem; 
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:  rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(20px);
+  top: 0;
+  width: 100%;
+  height: 70px;
+  align-items: center;
+  grid-column: span 12;
+   position: sticky;
+  display:flex;
+  align-items: center;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(20px);
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+#navbar {
+  position: sticky;
+  display:flex;
+  align-items: center;
+  top: 0;
+  z-index: 1000;
+}
+
+#typotheque{
+    margin-left: 0.26vh;
+    width: 25vh;
+    height:auto;
+   
+}
+
+#menu{
+    margin-left: 0.26vh;
+    width: 25vh;
+    height:auto;
+    
+}
+
+#loginsearch{
+    margin-left: 100vh;
+    width: 25vh;
+    height:auto;
+    position: center;
+}
+
+#main{
+    grid-column: span 12;
+    background-color: white;
+}
+
+#allfonts{
+    grid-column: span 3;
+    grid-row: span 2;  
+    background-color: rgba(255, 102, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+#globalfonts{
+    
+    grid-column: span 3;
+    grid-row:span 1;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+#variabelefonts{
+     grid-column: span 3;
+     grid-row:span 1;
+     background-color: rgba(255, 186, 207);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 20px;
+     overflow: hidden;
+}
+
+#smartfonts{
+     grid-column: span 3;
+     grid-row:span 1;
+     background-color: rgba(0, 182, 222);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 20px;
+     overflow: hidden;
+}
+
+#superfamilies{
+     grid-column: span 3;
+     grid-row:span 1;
+     background-color: rgba(181, 237, 255);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+#legibilityfonts{
+     grid-column: span 3;
+     grid-row:span 1;
+    background-color: rgba(190, 161, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#opticalsizes{
+     grid-column: span 3;
+     grid-row:span 1;
+    background-color: rgba(255, 77, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+#blog{
+  font-size: 1rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  grid-column: span 12;
+  height: 20vh;
+}
+
+#blog h1{
+  font-family: open sans;
+  font-size: 1 rem;
+  margin: 0 auto;
+}
+
+#blog1{
+  grid-column: span 3;
+   font-family: open sans;
+   font-size: 0.8rem;
+}
+
+#blog2{
+  grid-column: span 3;
+   font-family: open sans;
+    font-size: 0.8rem;
+}
+
+#blog3{
+  grid-column: span 3;
+   font-family: open sans;
+    font-size: 0.8rem;
+}
+
+#blog4{
+  grid-column: span 3;
+   font-family: open sans;
+    font-size: 0.8rem;
+}
+
+.klein{
+  color:grey;
+  font-size: 0.7rem;
+  width: 90%;
+  align-items: center;
+  margin: 4%;
+}
+
+.text{
+ width: 90%;
+ align-items: center;
+ margin: 0 auto;
+}
+
+h1{
+  font-family: open sans;
+}
+
+h2{
+   width: 90%;
+   align-items: center;
+   margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  position: center;
+  
+}
