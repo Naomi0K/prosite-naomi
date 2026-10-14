@@ -1,2 +1,2 @@
-# fansite-naomi
-Fansite CT van Naomi K
+# pro-site Naomi
+prosite CT Naomi K
